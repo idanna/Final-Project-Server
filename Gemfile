@@ -7,7 +7,8 @@ gem 'rails', '3.2.2'
 
 gem 'curl'
 gem "parse-ruby-client", "~> 0.1.1"
-gem 'pg'
+#gem 'pg'
+gem 'sqlite3'
 
 # Gems used only for assets and not required
 # in production environments by default.

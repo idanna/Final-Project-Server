@@ -17,7 +17,6 @@ class MainController < ApplicationController
 		rescue
 			# throws exception cause iOS also recieves
 		end
-		render :text => 'sent'
   end
   
 end

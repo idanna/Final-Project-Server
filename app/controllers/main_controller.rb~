@@ -17,7 +17,6 @@ class MainController < ApplicationController
 		rescue
 			# throws exception cause iOS also recieves
 		end
-		return 'OK'
   end
   
 end

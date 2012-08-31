@@ -4,5 +4,5 @@ class ApplicationController < ActionController::Base
   protect_from_forgery
   
 	Parse.init :application_id => "2jo7e9GelT811A2KsuJDJsP6sV7eeDYg2Jskyy4v",
-	           :api_key        => "5siGRhsEIOCimLy18zV9dv4ashRfJ9WPit2Y3Dmx"
+	           :api_key        => "2vBZmgJ2O4Jg10gQzefYITSwMD2tznLuRPtyBOr2"
 end
