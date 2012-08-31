@@ -1,0 +1,22 @@
+class MainController < ApplicationController
+	require 'net/https'
+	require 'uri'
+	#require 'curb'
+
+
+  def welcome
+  	
+  end
+  
+  def push
+  	msg = params[:msg]
+  	push = Parse::Push.new({:type => :android, "alert" => msg})
+  	begin
+			push.save
+		rescue
+		
+		end
+		
+  end
+  
+end

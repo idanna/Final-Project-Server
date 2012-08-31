@@ -1,0 +1,9 @@
+<h1>Main#welcome</h1>
+<p>Find me in app/views/main/welcome.html.erb</p>
+
+
+<%= form_tag :controller => "main", :action => "push" do %>
+  <%= label_tag(:msg, "Send:") %>
+  <%= text_field_tag(:msg) %>
+  <%= submit_tag("Push") %>
+<% end %>

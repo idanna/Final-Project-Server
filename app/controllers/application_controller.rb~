@@ -1,0 +1,8 @@
+class ApplicationController < ActionController::Base
+	require 'parse-ruby-client'
+
+  protect_from_forgery
+  
+	Parse.init :application_id => "5YcvBxkMHFvjhcX4CGb8Jp3RGUlTl0TQhAkiLrNv",
+	           :api_key        => "k54gHDABGDkuYe8LhZ2gt9zxBvse8HCAzmqFUL4f"
+end
