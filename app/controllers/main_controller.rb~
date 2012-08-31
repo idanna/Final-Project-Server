@@ -9,14 +9,15 @@ class MainController < ApplicationController
   end
   
   def push
-  	msg = params[:msg]
-  	push = Parse::Push.new({:type => :android, "alert" => msg})
+  	@msg = params[:msg]
+  	push = Parse::Push.new({:type => :android, "alert" => @msg})
+  	logger.debug "Person attributes hash: #{@msg}"
   	begin
 			push.save
 		rescue
-		
+			# throws exception cause iOS also recieves
 		end
-		
+		return 'OK'
   end
   
 end
