@@ -3,6 +3,6 @@ class ApplicationController < ActionController::Base
 
   protect_from_forgery
   
-	Parse.init :application_id => "5YcvBxkMHFvjhcX4CGb8Jp3RGUlTl0TQhAkiLrNv",
-	           :api_key        => "k54gHDABGDkuYe8LhZ2gt9zxBvse8HCAzmqFUL4f"
+	Parse.init :application_id => "HHmBmhMWhLCBI8lfL2kQeWGsqwkJdUSB31KCkoVP",
+	           :api_key        => "roskF7bcI68dnSvOSzoo2cyv7s3sUDWKVg8frgAw"
 end
